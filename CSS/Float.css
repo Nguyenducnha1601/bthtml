@@ -1,0 +1,33 @@
+div1 {
+    float: left;
+  }
+  
+  div2 {
+    clear: left;
+}
+
+/*Examples*/
+.header, .footer {
+    background-color: grey;
+    color: white;
+    padding: 15px;
+  }
+  
+  .column {
+    float: left;
+    padding: 15px;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .menu {
+    width: 25%;
+  }
+  
+  .content {
+    width: 75%;
+  }
