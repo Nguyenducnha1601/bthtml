@@ -1,8 +1,9 @@
-<h1>Dữ liệu từ Controllers gửi về là: @ViewBag.infoPerson </h1>
 <form asp-action="Index">
-    <label>Nhập Chiều cao :</label>
-    <input type="text" name="chieucao">
-    <label>Nhập cân nặng :</label>
-    <input type="text" name="cannang">
+    <label>Nhập Chiều cao:</label>
+    <input type="text" name="Cao">
+    <label>Nhập Cân nặng: </label>
+    <input type="text" name="Nang">
     <input type="submit" value="Gửi dữ liệu">
 </form>
+<h1>@ViewBag.BMIResult</h1>
+<h1> @ViewBag.FailMessage</h1>
